@@ -1,0 +1,4 @@
+{
+    "extends": "@apollo-ds/ts-config/react.json",
+    "include": ["src"]
+}
