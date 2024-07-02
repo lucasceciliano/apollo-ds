@@ -32,6 +32,13 @@ const config: StorybookConfig = {
 
   typescript: {
     reactDocgen: "react-docgen-typescript"
+  },
+  viteFinal: (config, {configType}) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/apollo-ds/'
+    }
+
+    return config
   }
 };
 export default config;
