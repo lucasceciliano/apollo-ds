@@ -274,6 +274,4 @@ export const colors = {
   brandDanger800: '#920025',
   brandDanger900: '#67001a',
   brandDanger1000: '#400010',
-
-  test: "000000"
 }
