@@ -1,0 +1,5 @@
+import{A as p}from"./index-C6QaQuYo.js";import"./index-lToYTJ1z.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-ll_DfXdE.js";import"./index-DCvIRzM-.js";import"./jsx-runtime-CsGkrc1M.js";const v={title:"Components/Avatar",component:p,args:{src:"https://img.freepik.com/fotos-premium/incrivel-deus-grego-do-sol-apolo-dos-saudaveis-e-dos-loucos_924723-2339.jpg",alt:"Apollo",variant:"sm"},argTypes:{variant:{options:["sm","md","lg"],control:{type:"inline-radio"}},src:{control:{type:"text"}}}},r={},o={args:{src:void 0}};var s,a,e;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(e=(a=r.parameters)==null?void 0:a.docs)==null?void 0:e.source}}};var t,c,i;o.parameters={...o.parameters,docs:{...(t=o.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    src: undefined
+  }
+}`,...(i=(c=o.parameters)==null?void 0:c.docs)==null?void 0:i.source}}};const f=["Small","WithFallback"];export{r as Small,o as WithFallback,f as __namedExportsOrder,v as default};
