@@ -3,7 +3,7 @@ import { styled } from "../styles/index";
 import { ComponentProps, ElementType } from "react";
 
 export const Box = styled('div', {
-    padding: '$space300',
+    padding: '$space400',
     borderRadius: '$xlg',
     backgroundColor: colorsSemantic.background.primary,
     boxShadow: '1px solid $grey700',

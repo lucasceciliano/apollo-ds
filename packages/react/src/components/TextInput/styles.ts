@@ -2,12 +2,22 @@ import { styled } from "../../styles";
 
 export const TextInputContainer = styled('div', {
     backgroundColor: '$white',
-    padding: '$space150',
     borderRadius: '$sm',
     boxSizing: 'border-box',
     border: '2px solid $obsidian200',
     display: 'flex',
-    alignItems: 'basiLine',
+    alignItems: 'center',
+
+    variants: {
+        size:{
+            sm:{
+                padding: '$space100',
+            },
+            md:{
+                padding: '$space150',
+            },
+        },
+    },
 
     '&:has(input:focus)': {
         border: '2px solid $blueSpark600'
@@ -16,6 +26,10 @@ export const TextInputContainer = styled('div', {
     '&:has(input:disabled)': {
         opacity: 0.5,
         cursor: 'not-allowed',
+    },
+
+    defaultVariants: {
+        size: "md",
     }
 })
 
@@ -43,7 +57,7 @@ export const Input = styled('input', {
         cursor: 'not-allowed',
     },
 
-    '&:placeholder': {
+    '&::placeholder': {
         color: '$obsidian400'
     }
 })

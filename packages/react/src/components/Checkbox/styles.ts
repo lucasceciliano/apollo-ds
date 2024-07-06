@@ -21,7 +21,7 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     backgroundColor: colorsSemantic.components.toggles.backgroundSelected,
   },
 
-  '&:focus': {
+  '&:focus, &[data-state="checked"]': {
     border: "0px solid $blueSpark500",
   },
 });

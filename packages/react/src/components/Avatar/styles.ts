@@ -17,14 +17,14 @@ export const AvatarContainer = styled(Avatar.Root, {
                 height: '$space400'
             },
             lg: {
-                width: '$space500',
-                height: '$space500'
+                width: '$space800',
+                height: '$space800'
             },
         }
     },
 
     defaultVariants: {
-        size: 'sm'
+        size: 'md'
     }
 
 })

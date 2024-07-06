@@ -28,12 +28,13 @@ export const Primary: StoryObj<TextInputProps> = {
 export const Disabled: StoryObj<TextInputProps> = {
     args: {
         disabled: true,
-    }
+    },
 }
 
 export const WithPrefix: StoryObj<TextInputProps> = {
     args: {
-        prefix: 'https://'
+        prefix: 'https://',
+        placeholder: 'you-username'
     }
 }
 
